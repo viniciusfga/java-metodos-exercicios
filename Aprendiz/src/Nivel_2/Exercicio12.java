@@ -7,7 +7,7 @@ public class Exercicio12 {
 
         int numero = 11;
 
-        boolean multiplo = VerificarMultiplo(numero);
+        boolean multiplo = verificarMultiplo(numero);
 
         if (multiplo) {
             System.out.println("É multiplo");
@@ -15,7 +15,7 @@ public class Exercicio12 {
             System.out.println("Não é multiplo");
         }
     }
-    public static boolean VerificarMultiplo (int n){
+    public static boolean verificarMultiplo (int n){
         if ( n % 3 == 0 || n % 5 == 0) {
             return true;
         }

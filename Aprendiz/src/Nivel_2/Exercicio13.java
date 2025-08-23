@@ -5,9 +5,9 @@ public class Exercicio13 {
 
         System.out.println("Criar um método que retorna se um número é primo.");
 
-        int numero = 7;
+        int numero = 12;
 
-        boolean primo = VerificarPrimo(numero);
+        boolean primo = verificarPrimo(numero);
 
         if (primo == true){
             System.out.println("É primo");
@@ -16,7 +16,7 @@ public class Exercicio13 {
         }
 
     }
-    public static boolean VerificarPrimo(int n){
+    public static boolean verificarPrimo(int n){
         boolean primo = true;
         if (n <= 1) {
             primo = false;
@@ -25,7 +25,6 @@ public class Exercicio13 {
                 if (n % i == 0) {
                     primo = false;
                     return primo;
-                    break;
                 }
             }
         }
