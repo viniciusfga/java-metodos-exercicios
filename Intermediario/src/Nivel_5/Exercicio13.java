@@ -1,6 +1,5 @@
-package Nivel_4;
+package Nivel_5;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Exercicio13 {
