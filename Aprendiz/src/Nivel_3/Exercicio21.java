@@ -1,9 +1,10 @@
 package Nivel_3;
 
 public class Exercicio21 {
+    /*
+    Criar um método que recebe uma frase e retorna quantas palavras ela tem.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe uma frase e retorna quantas palavras ela tem.");
 
         String texto = " Java é      legal";
 

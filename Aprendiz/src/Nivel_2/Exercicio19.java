@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio19 {
+    /*
+    Criar um método que recebe uma nota (0–10) e retorna o conceito (A, B, C...).
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe uma nota (0–10) e retorna o conceito (A, B, C...).");
 
         System.out.println("Nota 9.5: " + obterConceito(9.5));
         System.out.println("Nota 8.0: " + obterConceito(8.0));

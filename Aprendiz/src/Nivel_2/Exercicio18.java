@@ -3,10 +3,11 @@ package Nivel_2;
 import java.util.Scanner;
 
 public class Exercicio18 {
+    /*
+    Criar um método que converte Celsius para Fahrenheit.
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("Criar um método que converte Celsius para Fahrenheit.");
 
         int c = sc.nextInt();
         double f  = CelsiusFahrenheit(c);

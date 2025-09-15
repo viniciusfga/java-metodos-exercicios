@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio08 {
+    /*
+    Criar um método que recebe três números e retorna a média.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe três números e retorna a média.");
 
         int numero_1 = 4;
         int numero_2 = 4;

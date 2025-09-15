@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio04 {
+    /*
+    Criar um método que retorna o quadrado de um número.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que retorna o quadrado de um número.");
 
         int numero = 3;
 

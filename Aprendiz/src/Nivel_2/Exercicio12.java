@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio12 {
+    /*
+    Criar um método que retorna se um número é múltiplo de 3 ou 5.
+     */
     public static void main (String[] args){
-
-        System.out.println("Criar um método que retorna se um número é múltiplo de 3 ou 5.");
 
         int numero = 11;
 

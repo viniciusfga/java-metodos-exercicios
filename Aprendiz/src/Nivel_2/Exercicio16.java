@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio16 {
+    /*
+    Criar um método que retorna a tabuada de um número em forma de String.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que retorna a tabuada de um número em forma de String.");
 
         int numero = 7;
         String resultado = gerarTabuada(numero);

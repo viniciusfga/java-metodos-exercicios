@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio13 {
+    /*
+    Criar um método que retorna se um número é primo.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que retorna se um número é primo.");
 
         int numero = 12;
 

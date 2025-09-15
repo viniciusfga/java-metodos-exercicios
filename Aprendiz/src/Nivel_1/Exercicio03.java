@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio03 {
+    /*
+    Criar um método que recebe dois int e imprime a soma.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe dois int e imprime a soma.");
 
         int numero_1 = 8;
         int numero_2 = 8;

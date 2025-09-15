@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio05 {
+    /*
+    Criar um método que recebe nome e idade e imprime uma mensagem formatada.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe nome e idade e imprime uma mensagem formatada.");
 
         String nome = "Marcos Alves";
         int idade = 9;

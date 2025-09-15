@@ -1,12 +1,11 @@
 package Nivel_1;
 
 public class Exercicio01 {
+    /*
+    Criar um método void que imprime Olá, mundo!.
+     */
     public static void main(String[] args) {
-
-        System.out.print("Criar um método void que imprime Olá, mundo!.");
-
         helloworld();
-
     }
 
     public static void helloworld() {

@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio20 {
+    /*
+    Criar um método que calcula o fatorial de um número usando for.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que calcula o fatorial de um número usando for.");
 
         int numero = 4;
         fatorial(numero);

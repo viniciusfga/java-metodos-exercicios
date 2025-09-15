@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class Exercicios22 {
 
+    /**
+     * Exercício 22:
+     * Criar um método que recebe uma senha e verifica se ela é forte
+     * (tamanho > 8, contém letra, número e símbolo).
+     */
+
     static void verificarSenha(String s){
 
         if(s.length() < 8){
@@ -41,18 +47,11 @@ public class Exercicios22 {
             return;
         }
 
-        // Se passou por tudo:
         System.out.println("Senha forte!");
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("Criar um método que recebe uma senha e verifica se ela é forte (" +
-                "tamanho > 8, " +
-                "contém letra, " +
-                "número e " +
-                "símbolo).");
 
         System.out.println("Digite sua senha: ");
         String senha = sc.nextLine();

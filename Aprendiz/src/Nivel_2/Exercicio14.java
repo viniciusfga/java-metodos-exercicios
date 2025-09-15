@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio14 {
+    /*
+    Criar um método que inverte uma String.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que inverte uma String.");
 
         String palavra= "Java";
 

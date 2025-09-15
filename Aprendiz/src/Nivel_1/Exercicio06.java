@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio06 {
+    /*
+    Criar um método que calcula o dobro de um número e retorna o resultado.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que calcula o dobro de um número e retorna o resultado.");
 
         int numero = 3;
 

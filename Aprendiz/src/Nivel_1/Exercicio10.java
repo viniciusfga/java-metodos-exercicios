@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio10 {
+    /*
+    Criar um método boolean isMaiorDeIdade(int idade) que retorna true se idade >= 18.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método boolean isMaiorDeIdade(int idade) que retorna true se idade >= 18.");
 
         int idade = 17;
 

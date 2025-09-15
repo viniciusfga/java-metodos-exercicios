@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio09 {
+    /*
+    Criar um método que retorna a área de um retângulo (base x altura).
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que retorna a área de um retângulo (base x altura).");
 
         int base = 5;
         int altura = 4;

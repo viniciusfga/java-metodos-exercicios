@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio02 {
+    /*
+    Criar um método que recebe um int e imprime se ele é par.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um int e imprime se ele é par.");
 
         int numero = 8;
 

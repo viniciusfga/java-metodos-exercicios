@@ -1,9 +1,10 @@
 package Nivel_1;
 
 public class Exercicio07 {
+    /*
+    Criar um método que verifica se um número é positivo ou negativo.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que verifica se um número é positivo ou negativo.");
 
         int numero = -3;
 

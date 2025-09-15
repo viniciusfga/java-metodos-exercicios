@@ -1,9 +1,10 @@
 package Nivel_2;
 
 public class Exercicio17 {
+    /*
+    Criar um método que recebe um caractere e retorna se é vogal.
+     */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um caractere e retorna se é vogal.");
 
         char letra = 'i';
         boolean vogal = isVogal(letra);
