@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Exercicio16ArrayList {
-
+    /*
+    Criar um método que retorna um array com os números primos até um valor n.
+     */
     public static int[] ObterPrimos(int n) {
 
         ArrayList<Integer> primosList = new ArrayList<>();
@@ -31,8 +33,6 @@ public class Exercicio16ArrayList {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Criar um método que retorna um array com os números primos até um valor n.");
 
         int n = input.nextInt();
         int[] primos = ObterPrimos(n);

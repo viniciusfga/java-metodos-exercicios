@@ -1,13 +1,14 @@
 package Nivel_5;
-
-import java.util.ArrayList;
 import java.util.Scanner;
+
+/*
+Criar um método que retorna um array com os números primos até um valor n.
+ */
 
 public class Exercicio16 {
 
     public static int[] ObterPrimos(int n) {
 
-        // Primeiro, vamos contar quantos primos existem até n
         int count = 0;
         for (int i = 2; i <= n; i++) {
             if (ehPrimo(i)) count++;
@@ -36,8 +37,6 @@ public class Exercicio16 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
-        System.out.println("Criar um método que retorna um array com os números primos até um valor n.");
 
         int n = input.nextInt();
         int[] primos = ObterPrimos(n);

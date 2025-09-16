@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio01 {
+    /*
+    Criar um método que recebe um array de int e retorna a soma dos elementos.
+    */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um array de int e retorna a soma dos elementos.");
 
         int[] numeros = {1,2,3,4,5,6,7,8,9,10};
 

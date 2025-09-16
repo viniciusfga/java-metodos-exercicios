@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio05 {
+    /*
+    Criar um método que recebe um array de int e retorna o maior valor.
+    */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um array de int e retorna o maior valor.");
 
         int[] numeros = {1,2,3,4,5,555,444,333,222,111};
 

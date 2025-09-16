@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio08 {
+    /*
+    Criar um método que recebe um nome completo e retorna apenas o primeiro nome.
+    */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um nome completo e retorna apenas o primeiro nome.");
 
         String nomeCompleto = "Abcd Efgh Ijkl Mnop";
 

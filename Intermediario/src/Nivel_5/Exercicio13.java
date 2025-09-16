@@ -3,6 +3,9 @@ package Nivel_5;
 import java.util.Scanner;
 
 public class Exercicio13 {
+    /*
+    Criar um método que recebe um texto e retorna outro sem espaços.
+     */
     public static String removerEspacos(String texto){
         String resultado = texto;
 
@@ -12,7 +15,6 @@ public class Exercicio13 {
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Criar um método que recebe um texto e retorna outro sem espaços.");
 
         String texto = input.nextLine();
 

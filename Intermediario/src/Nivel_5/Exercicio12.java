@@ -3,7 +3,9 @@ package Nivel_5;
 import java.util.Scanner;
 
 public class Exercicio12 {
-
+    /*
+    Criar um método que recebe dois números e retorna um array com [soma, subtração, multiplicação, divisão].
+     */
     public double[] soma(double a, double b) {
         double[] resultados = new double[4];
 
@@ -24,8 +26,6 @@ public class Exercicio12 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Exercicio12 ex = new Exercicio12();
-
-        System.out.println("Criar um método que recebe dois números e retorna um array com [soma, subtração, multiplicação, divisão].");
 
         int a = input.nextInt();
         int b = input.nextInt();

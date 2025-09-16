@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio09 {
+    /*
+    Criar um método que recebe um array de String e retorna um único texto concatenado.
+    */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um array de String e retorna um único texto concatenado.");
 
         String texto = "Abcd Efgh Ijkl Mnop";
 

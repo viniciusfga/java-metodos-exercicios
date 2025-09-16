@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio07 {
+    /*
+    Criar um método que recebe um array e retorna uma cópia invertida.
+    */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um array e retorna uma cópia invertida.");
 
         int[] array = {1, 2, 3, 4, 5};
 

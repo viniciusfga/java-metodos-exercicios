@@ -1,7 +1,9 @@
 package Nivel_5;
 
 public class Exercicio14 {
-
+    /*
+    Criar um método que recebe um array de String e retorna um novo array com todas em maiúsculo.
+     */
     public static String[] ObterMaiusculo(String[] p) {
 
         for (int i = 0; i < p.length; i++) {
@@ -11,8 +13,6 @@ public class Exercicio14 {
     }
 
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe um array de String e retorna um novo array com todas em maiúsculo.");
 
         String[] minusculo = {"letra", "palavra", "texto"};
 

@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio10 {
+    /*
+    Criar um método que recebe uma String e retorna true se for um palíndromo.
+    */
     public static void main(String[] args) {
-
-        System.out.println("Criar um método que recebe uma String e retorna true se for um palíndromo.");
 
         String palavra = "ovo";
 

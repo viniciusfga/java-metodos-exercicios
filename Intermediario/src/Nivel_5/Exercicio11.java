@@ -1,6 +1,9 @@
 package Nivel_5;
 
 public class Exercicio11 {
+    /*
+    Criar dois métodos soma sobrecarregados: um que recebe dois int e outro que recebe dois double.
+     */
     public int soma(int a, int b) {
         return a + b;
     }
@@ -11,8 +14,6 @@ public class Exercicio11 {
 
     public static void main(String[] args) {
         Exercicio11  ex = new Exercicio11();
-
-        System.out.println("Criar dois métodos soma sobrecarregados: um que recebe dois int e outro que recebe dois double.");
 
         // Chamando o método soma com inteiros
         int resultadoInt = ex.soma(5, 10);

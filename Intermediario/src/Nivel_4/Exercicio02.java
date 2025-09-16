@@ -1,9 +1,10 @@
 package Nivel_4;
 
 public class Exercicio02 {
+    /*
+    Criar um método que recebe um array de double e retorna a média.
+    */
     public static void main(String[] args){
-
-        System.out.println("Criar um método que recebe um array de double e retorna a média.");
 
         double[] vetor = {1.5 , 1.5 , 1.5};
 
