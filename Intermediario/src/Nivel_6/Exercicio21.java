@@ -11,7 +11,7 @@ public class Exercicio21 {
 
         double soma = 0, media = 0, maior = notas[0], menor = notas[0];
         for (int i = 0; i < notas.length; i++) {
-            soma = notas[i];
+            soma += notas[i];
             if (maior < notas[i]) maior = notas[i];
             if (menor > notas[i]) menor = notas[i];
         }
@@ -25,9 +25,11 @@ public class Exercicio21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Quantidade de notas:");
         int n = sc.nextInt();
         double[] notas = new double[n];
 
+        System.out.println("Insira as notas:");
         for (int i = 0; i < n; i++) {
             notas[i] = sc.nextDouble();
          }
@@ -37,6 +39,5 @@ public class Exercicio21 {
         System.out.println("Média: " + vet[0]);
         System.out.println("Maior: " + vet[1]);
         System.out.println("Menor: " + vet[2]);
-
     }
 }
