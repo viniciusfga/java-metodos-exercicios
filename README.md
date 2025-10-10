@@ -12,7 +12,7 @@ Os exercícios estão organizados em níveis de dificuldade, para guiar o aprend
 - 🧑‍🎓 **Intermediário** — Uso de retorno e condicionais
 - 🔥 **Avançado** — Estruturar soluções de problemas mais completos
 
-> Cada pasta contém arquivos `.java` organizados como `Exercicio01.java`, `Exercicio02.java`, etc.
+> Cada pasta contém arquivos `.java` organizados como `Nivel_7.Exercicio01.java`, `Exercicio02.java`, etc.
 
 ---
 
@@ -21,5 +21,5 @@ Os exercícios estão organizados em níveis de dificuldade, para guiar o aprend
 Abra um terminal na raiz do projeto e compile/execute com:
 
 ```bash
-javac Aprendiz/Exercicio01.java
-java Aprendiz.Exercicio01
+javac Aprendiz/Nivel_7.Exercicio01.java
+java Aprendiz.Nivel_7.Exercicio01
